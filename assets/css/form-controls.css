@@ -1,0 +1,72 @@
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=text],
+textarea {
+    width: 100%;
+    border: solid 1px #e3e3e3;
+    border-bottom-color: #F0F0F0;
+    border-top-color: #e0e0e0;
+    color: #777;
+    background-color: rgba(0, 0, 0, .02) !important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    outline: none !important;
+    /*-moz-box-shadow: 0 1px 2px rgba(10,10,10,.1)inset;
+    -webkit-box-shadow: 0 1px 2px rgba(10,10,0,.1)inset;
+    -o-box-shadow: 0 1px 2px rgba(10,10,10,.1)inset;
+    box-shadow: 0 1px 2px rgba(10,10,10,.1)inset;*/
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+textarea:focus {
+    color: #323436;
+    background-color: #fff !important;
+    outline: none !important;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.form-control {
+    font-size: 13px;
+    height: 44px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    color: #323436;
+    background-color: rgba(250, 250, 250, .01);
+    outline: none !important;
+    border: solid 1px #e3e3e3;
+    border-bottom-color: #F0F0F0;
+    border-top-color: #e0e0e0;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
